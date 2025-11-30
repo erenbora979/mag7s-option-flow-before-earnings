@@ -8,7 +8,9 @@ H₀ : Option flow before to the earnings report has no statistically significan
 H₁ : Option flows (Put/Call) observed in the trading session immediately before the earnings announcement is a statistically significant predictor of the performance of the stock's post-earnings price response.
 # Dataset
 Price Source: Yahoo Finance (Historical Price Data). Price prior to the report.
+
 Flow Source: unusualwhales.com (Pre-Earnings Option Flow Database).
+
 Sample Scope: To achieve adequate statistical power for the hypothesis tests, the study will include all quarters of 2025. For analytical clarity and relevance to short-term o      option liquidation, the performance will be quantified as the percent price change observed exclusively during the first hour of trading after market open. This time constraint     addresses the extreme volatility often observed and isolates the critical profit-taking period. 
 The analysis will use the distribution of strike prices relative to the stock's closing price to categorize flow as At-the-Money (ATM) or Out-of-the-Money (OTM) to measure the      aggressive intent of the positioning. Key descriptive statistics (Mean, Median, Standard Deviation) will be calculated for both the P/C Ratio and the post-earnings performance to   understand the overall market bias before hypothesis testing begins.
 
