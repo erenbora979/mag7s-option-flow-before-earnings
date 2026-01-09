@@ -27,6 +27,8 @@ This project employs a **hybrid data strategy** to comply with the course requir
     * **Constraint:** Proprietary option flow data (e.g., from *Unusual Whales*) is not publicly accessible via free APIs.
     * **Method:** A stochastic simulation engine was developed to generate synthetic option flow data (Call Volume, Put Volume, Sentiment Score). This simulation incorporates market microstructure rules (e.g., volume spikes on earnings days) to demonstrate the validity of the analysis pipeline.
 
+
+
 ### Analysis Workflow
 ```mermaid
 graph TD;
@@ -37,6 +39,7 @@ graph TD;
     D -->|Sentiment Score| F[Random Forest Model];
     F --> G[Prediction: Price UP/DOWN];
     E --> H[Insight Generation];
+
 ## 3. Exploratory Data Analysis (EDA)
 
 The analysis begins with visualizing the relationship between Option Ratios and market events.
