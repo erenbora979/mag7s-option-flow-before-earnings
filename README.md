@@ -39,6 +39,7 @@ graph TD;
     D -->|Sentiment Score| F[Random Forest Model];
     F --> G[Prediction: Price UP/DOWN];
     E --> H[Insight Generation];
+````
 
 ## 3. Exploratory Data Analysis (EDA)
 
