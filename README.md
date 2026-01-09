@@ -60,7 +60,7 @@ To test the hypothesis, we treated this as a **Binary Classification Problem**.
 ### Training Process
 The data was split into **80% Training** and **20% Testing** sets.
 
-```python
+python
 # Model Snippet
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
