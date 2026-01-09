@@ -75,6 +75,7 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 5. Results & Findings
 Model Performance
+```
 The model was evaluated using Accuracy Score and a Confusion Matrix on the test set.
 
 Accuracy: ~95% (on synthetic data)
